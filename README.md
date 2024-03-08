@@ -11,3 +11,5 @@ This project is created as a simple use of the ng-packagr module to test on an I
 4. Use `npm install` in the 'app' project
 5. Use `npm run build` to build the angular project with optimization turned on
 	1. Use `npm run buildDev` to build the angular project with optimization turned off
+
+**Note**: A version of the project where app doesn't include the module is available under the 'no-module' branch
