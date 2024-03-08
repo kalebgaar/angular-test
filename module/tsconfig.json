@@ -1,0 +1,40 @@
+{
+  "compileOnSave": true,
+	"compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "declaration": false,
+    "module": "es2020",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+	// TODO: remove ignoreDeprecations and suppressImplicityAnyIndexErrors
+	"ignoreDeprecations": "5.0",
+    "suppressImplicitAnyIndexErrors": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "ES2020",
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "strict": false,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "plugins": [
+      {
+        "name": "@angular/language-service"
+      }
+    ],
+    // "useDefineForClassFields": false
+  },
+	"exclude": [
+		"node_modules"
+	]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "@ng-packager-test/module",
+  "version": "1.0.2",
+  "scripts": {
+    "ng": "ng",
+    "build": "ng build",
+    "start": "npm run lint && ng build --watch --configuration development",
+    "test": "ng test",
+	"package": "ng-packagr -p ng-package.json",
+	"buildDev": "DEBUG=* node ./node_modules/@angular/cli/bin/ng build --configuration=development",
+    "init": "npm i",
+    "init-server": "npm i && ng build",
+    "lint": "eslint . --ext .ts -c .eslintrc.js"
+  },
+  "peerDependencies": {
+    "@angular/animations": "17.1.2",
+    "@angular/common": "17.1.2",
+    "@angular/compiler": "17.1.2",
+    "@angular/core": "17.1.2",
+    "@angular/forms": "17.1.2",
+    "@angular/platform-browser": "17.1.2",
+    "@angular/platform-browser-dynamic": "17.1.2",
+    "@angular/router": "17.1.2",
+    "axios": "0.27.2",
+    "rxjs": "7.8.1",
+    "typescript-optional": "2.0.1",
+    "zone.js": "0.14.3"
+  },
+  "dependencies": {
+    "tslib": "2.3.1"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "17.1.1",
+    "@angular/cli": "17.1.1",
+    "@angular/compiler-cli": "17.1.2",
+    "ng-packagr": "^17.1.2",
+    "typescript": "5.3.3"
+  },
+  "overrides": {
+    "esbuild": "npm:esbuild-wasm@latest",
+    "rollup": "npm:@rollup/wasm-node"
+  }
+}
