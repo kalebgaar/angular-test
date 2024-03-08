@@ -4,13 +4,8 @@
   "scripts": {
     "ng": "ng",
     "build": "ng build",
-    "start": "npm run lint && ng build --watch --configuration development",
-    "test": "ng test",
 	"package": "ng-packagr -p ng-package.json",
-	"buildDev": "DEBUG=* node ./node_modules/@angular/cli/bin/ng build --configuration=development",
-    "init": "npm i",
-    "init-server": "npm i && ng build",
-    "lint": "eslint . --ext .ts -c .eslintrc.js"
+	"buildDev": "DEBUG=* node ./node_modules/@angular/cli/bin/ng build --configuration=development"
   },
   "peerDependencies": {
     "@angular/animations": "17.1.2",
