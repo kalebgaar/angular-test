@@ -1,7 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { TestModule } from '@ng-packagr-test/module';
 import { AppComponent } from './app.component';
 
 
@@ -11,8 +10,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     CommonModule,
-	BrowserModule,
-	TestModule
+	BrowserModule
   ],
   bootstrap: [
 	AppComponent
