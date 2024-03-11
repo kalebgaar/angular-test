@@ -10,8 +10,6 @@
     "moduleResolution": "node",
     "noImplicitAny": true,
     "noImplicitOverride": true,
-	// TODO: remove ignoreDeprecations and suppressImplicityAnyIndexErrors
-	"ignoreDeprecations": "5.0",
     "suppressImplicitAnyIndexErrors": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
