@@ -36,7 +36,6 @@
   },
   "overrides": {
     "esbuild": "npm:esbuild-wasm@latest",
-    "rollup": "npm:@rollup/wasm-node",
 	"vite": {
 		"esbuild": "npm:esbuild-wasm@latest"
 	}
