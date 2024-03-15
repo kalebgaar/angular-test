@@ -1,14 +1,4 @@
-## Module Project Builds
-
-### Example of console log of building the module project locally
-
-![Module Build locally](./Module-Local.png)
-
-### Example of console log of building the module project on IBM i server
-
-![Module build on server](./Module-Server.png)
-
-## App Project (Without Module for testing)
+## App Project
 
 ### Example of console log of building the app project on the server with optimization turned on
 
