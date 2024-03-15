@@ -32,7 +32,12 @@
     "typescript": "5.3.3"
   },
   "overrides": {
-    "esbuild": "npm:esbuild-wasm@latest",
-    "rollup": "npm:@rollup/wasm-node"
+	"vite": {
+		"esbuild": "npm:esbuild-wasm@latest"
+	},
+	"ng-packagr": {
+		"rollup": "^3.0.0"
+	},
+    "esbuild": "npm:esbuild-wasm@latest"
   }
 }
